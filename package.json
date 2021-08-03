@@ -1,13 +1,13 @@
 {
     "name": "silicoin-dashboard-satellite",
-    "version": "1.12.2",
+    "version": "1.12.3",
     "repository": "https://github.com/MinerGreggy/silicoin-dashboard-satellite.git",
     "bugs": "https://github.com/MinerGreggy/silicoin-dashboard-satellite/issues",
     "license": "GPL-3.0",
     "dependencies": {
         "axios": "^0.21.1",
         "bignumber.js": "^9.0.1",
-        "silicoin-api": "^2.2.3",
+        "silicoin-api": "^2.2.4",
         "js-yaml": "^4.1.0",
         "lodash": "^4.17.21",
         "mkdirp": "^1.0.4",

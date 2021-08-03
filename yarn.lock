@@ -513,14 +513,6 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-silicoin-api@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/silicoin-api/-/silicoin-api-2.2.1.tgz#a432d5353dee32bf9ec10f6f64eec196ce342c44"
-  integrity sha512-yPAI6Ig3vwagjsc7SSpEKpRftKfPtDBY+oEjguWtgEZWeNr/dan7snrAYJ7L7Fvo1d7ru9ao5wJAktt4VESoHw==
-  dependencies:
-    json-bigint "^1.0.0"
-    ws "^7.5.0"
-
 https-proxy-agent@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
@@ -1031,6 +1023,14 @@ signal-exit@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
+
+silicoin-api@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/silicoin-api/-/silicoin-api-2.2.4.tgz#d0fc9101ee859bc75841143bad3232b61acf06b3"
+  integrity sha512-N4susYLYussv54VEnTefuq/ZSlzpZRcPJ8mWgl/d24+ugRJU4o1pP9faDHrawslfAiopTRFRZrldzZwbxeTcQA==
+  dependencies:
+    json-bigint "^1.0.0"
+    ws "^7.5.0"
 
 simple-concat@^1.0.0:
   version "1.0.1"
