@@ -54,7 +54,7 @@ jobs:
       - name: Get Tag For Release
         uses: oprypin/find-latest-tag@v1
         with:
-         repository:  MinerGreggy/hddcoin-dashboard-satellite
+         repository:  MinerGreggy/silicoin-dashboard-satellite
          releases-only: true
         id: tag 
       - run: echo "Dashboard is at version ${{ steps.tag.outputs.tag }}"
