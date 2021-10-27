@@ -22,9 +22,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: ghcr.io/MinerGreggy/silicoin-docker-dashboard
-          tag-sha: false
-          tag-edge: false
-          tag-latest: true
+          tag-custom: latest
           
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
@@ -42,12 +40,12 @@ jobs:
       - name: Build image
         uses: docker/build-push-action@v2
         with:
-          tags: latest
+          tags: ${{ steps.docker_meta.outputs.tags }} 
           file: ./Dockerfile
                     
       - name: Push image
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: latest
+          tags: ${{ steps.docker_meta.outputs.tags }}
           file: ./Dockerfile
