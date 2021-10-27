@@ -3,9 +3,9 @@ name: Publish Docker Image
 on:
   push:
     branches: [ master ]
-#  release:
-#    types:
-#      - published
+  release:
+    types:
+      - published
 
 jobs:
 
@@ -22,7 +22,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: ghcr.io/MinerGreggy/silicoin-docker-dashboard
-          tag-sha: true
+          tag-sha: false
           tag-edge: false
           tag-latest: true
           
